@@ -5,11 +5,11 @@ status: Active
 type: Meta
 author: Martin Becze <mb@ethereum.org>, Hudson Jameson <hudson@ethereum.org>, and others
         https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1.md
-created: 2015-10-27
-updated: 2015-12-07, 2016-02-01, 2018-03-21, 2018-05-29, 2018-10-17
+created: 2019-04-02
+updated: 2019-04-02
 ---
 
-## What is an EIP?
+## EIP가 무엇인가요?
 
 EIP stands for Ethereum Improvement Proposal. An EIP is a design document providing information to the Ethereum community, or describing a new feature for Ethereum or its processes or environment. The EIP should provide a concise technical specification of the feature and a rationale for the feature. The EIP author is responsible for building consensus within the community and documenting dissenting opinions.
 
