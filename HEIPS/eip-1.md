@@ -10,7 +10,7 @@ updated: 2019-04-02
 ---
 
 ## EIP가 무엇인가요?
-
+깃험 
 EIP stands for Ethereum Improvement Proposal. An EIP is a design document providing information to the Ethereum community, or describing a new feature for Ethereum or its processes or environment. The EIP should provide a concise technical specification of the feature and a rationale for the feature. The EIP author is responsible for building consensus within the community and documenting dissenting opinions.
 
 ## EIP Rationale
