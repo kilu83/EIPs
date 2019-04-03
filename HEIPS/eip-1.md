@@ -9,8 +9,12 @@ created: 2019-04-02
 updated: 2019-04-02
 ---
 
-## EIP가 무엇인가요?
-깃헙 ㅅㅂ.
+## Handy EIPs
+이더리움은 오픈소스 프로젝트입니다. 프로토콜에 대한 새로운 아이디어가 있을때마다 Github의 EIP시스템을 통해 제안되고 논의됩니다. EIP는 이더리움의 역사라고 봐도 무방합니다. 현재 블록체인을 조금이라도 공부해본 이라면 들어봤을 ERC-20, ERC-721을 비롯하여 여타 자잘한 수정사항부터 하드포크와 같이 큰 규모의 변경사항까지 모두 EIP를 통해 논의되고 결정됩니다. 그만큼 EIP는 이더리움 관련 문서들 가운데 가장 영향력이 큽니다. 이를 제외해도 은근히 재밌고 흥미로운 내용들도 존재합니다. 
+
+이더리움에 대한 공부를 시작할때도 EIP를 순서대로 따라가며 차근차근 익히다보면 이더리움이 어떻게 발전되어 왔고 그 기반이 되는 지식들 역시 습득할 수 있다 생각합니다. 하지만 기존의 EIP는 영어로 작성되어 있고 기반 지식에 대한 해설이 입문자 입장에서 충분하지 않다 보니 한국 사용자들에게 어려운 것은 사실입니다. 또한 기술적인 부분이 다수 포함되어 있어 비개발자에게 어렵게 느껴지는 것도 사실입니다. Handy EIPs는 이러한 문제들을 해결하고 더욱 많은 사람들이 이더리움에 대해 공부할 수 있도록 돕기 위해 시작된 오픈소스 프로젝트입니다. 시작은 2명으로 하지만 앞으로 더욱 많은 분들이 참여해주시길 기원합니다.
+
+## EIP가 무엇인가?
 EIP stands for Ethereum Improvement Proposal. An EIP is a design document providing information to the Ethereum community, or describing a new feature for Ethereum or its processes or environment. The EIP should provide a concise technical specification of the feature and a rationale for the feature. The EIP author is responsible for building consensus within the community and documenting dissenting opinions.
 
 ## EIP Rationale
