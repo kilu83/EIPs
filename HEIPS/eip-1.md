@@ -1,6 +1,6 @@
 ---
 eip: 1
-title: EIP Purpose and Guidelines
+title: EIP의 목적과 가이드라인
 status: Active
 type: Meta
 author: Ludorum Jeoun <ludy@plain.network> Hun Ryu <hunryu@plain.network>
@@ -9,25 +9,22 @@ created: 2019-04-02
 updated: 2019-04-02
 ---
 
-## Handy EIPs
-이더리움은 오픈소스 프로젝트입니다. 프로토콜에 대한 새로운 아이디어가 있을때마다 Github의 EIP시스템을 통해 제안되고 논의됩니다. EIP는 이더리움의 역사라고 봐도 무방합니다. 현재 블록체인을 조금이라도 공부해본 이라면 들어봤을 ERC-20, ERC-721을 비롯하여 여타 자잘한 수정사항부터 하드포크와 같이 큰 규모의 변경사항까지 모두 EIP를 통해 논의되고 결정됩니다. 그만큼 EIP는 이더리움 관련 문서들 가운데 가장 영향력이 큽니다. 이를 제외해도 은근히 재밌고 흥미로운 내용들도 존재합니다. 
+## Handy EIP
+이더리움은 오픈소스 프로젝트입니다. 프로토콜에 대한 새로운 아이디어가 있을때마다 Github의 EIP시스템을 통해 제안되고 논의됩니다. EIP는 이더리움의 역사라고 봐도 무방합니다. 현재 블록체인을 조금이라도 공부해본 이라면 들어봤을 ERC-20, ERC-721을 비롯하여 여타 자잘한 수정사항부터 하드포크와 같이 큰 규모의 변경사항까지 모두 EIP를 통해 논의되고 결정됩니다. EIP는 수 많은 논의와 발전 방향이 담긴 이더리움의 역사책이라 봐도 무방합니다. 그만큼 EIP는 이더리움 관련 문서들 가운데 가장 영향력이 큽니다. 그리고 은근히 재밌고 흥미로운 내용들도 존재합니다. 
 
-이더리움에 대한 공부를 시작할때도 EIP를 순서대로 따라가며 차근차근 익히다보면 이더리움이 어떻게 발전되어 왔고 그 기반이 되는 지식들 역시 습득할 수 있다 생각합니다. 하지만 기존의 EIP는 영어로 작성되어 있고 기반 지식에 대한 해설이 입문자 입장에서 충분하지 않다 보니 한국 사용자들에게 어려운 것은 사실입니다. 또한 기술적인 부분이 다수 포함되어 있어 비개발자에게 어렵게 느껴지는 것도 사실입니다. Handy EIPs는 이러한 문제들을 해결하고 더욱 많은 사람들이 이더리움에 대해 공부할 수 있도록 돕기 위해 시작된 오픈소스 프로젝트입니다. 기존 EIP 문서를 그대로 번역하는 것만이 아닌, 흐름이 최대한 원활히 이어지도록 해설과 예시도 포함될 예정입니다.
-
-시작은 2명으로 하지만 앞으로 더욱 많은 분들이 참여해주시길 기원합니다.
+이더리움에 대한 공부를 시작할때도 EIP를 순서대로 따라가며 차근차근 익히다보면 이더리움이 어떻게 발전되어 왔고 그 기반이 되는 지식들 역시 습득할 수 있다 생각합니다. 하지만 기존의 EIP는 영어로 작성되어 있고 기반 지식에 대한 해설이 입문자 입장에서 충분하지 않다 보니 한국 사용자들에게 어려운 것은 사실입니다. 또한 기술적인 부분이 다수 포함되어 있어 비개발자에게 어렵게 느껴지는 것도 사실입니다. Handy EIP는 이러한 문제들을 해결하고 더욱 많은 사람들이 이더리움에 대해 공부할 수 있도록 돕기 위해 시작된 오픈소스 프로젝트입니다. 기존 EIP 문서를 그대로 번역하는 것만이 아닌, 흐름이 최대한 원활히 이어지도록 해설과 예시도 포함될 예정입니다.
 
 ## EIP가 무엇인가?
-EIP stands for Ethereum Improvement Proposal. An EIP is a design document providing information to the Ethereum community, or describing a new feature for Ethereum or its processes or environment. The EIP should provide a concise technical specification of the feature and a rationale for the feature. The EIP author is responsible for building consensus within the community and documenting dissenting opinions.
+비트코인에 BIP가 있듯 이더리움에도 EIP가 있습니다. EIP는 Ethereum Improvement Proposal의 약자로서 이더리움 개선 제안을 뜻합니다. 말그대로 EIP는 이더리움 커뮤니티에 정보를 제공하거나 이더리움의 새로운 기능을 소개하는 설계 문서와 같습니다. EIP는 제안하고자 하는 기능과 이유에 대해 기술적으로 명확히 설명해야 합니다. EIP 작성자는 제안한 EIP에 대해 커뮤니티의 합의를 이끌어내야 하며, 반대의견에 대해 기록해야할 의무가 있습니다. 제 아무리 비탈릭이라 하더라도 EIP를 그냥 통과시킬 순 없습니다. 실제로 비탈릭이 제안한 몇몇 EIP 역시 수 많은 토론을 통해 적용된 바 있습니다.
 
-## EIP Rationale
+## EIP 시스템을 왜 사용하는가?
+EIP는 새로운 기능을 제안하는데 요구되는 최우선 메커니즘으로 활용되고, 이슈에 대한 커뮤니티의 기술적 조언을 모우고, 이더리움에 적용되는 설계적 결정들을 문서화하기 위함입니다. EIP는 versioned repository(각 업데이트마다 변경된 히스토리를 저장하는 리포지토리)에 텍스트 파일로 유지될 것이기 때문에  EIP의 변경 사항은 문서화되어 모두 기록으로 남아있습니다.
 
-We intend EIPs to be the primary mechanisms for proposing new features, for collecting community technical input on an issue, and for documenting the design decisions that have gone into Ethereum. Because the EIPs are maintained as text files in a versioned repository, their revision history is the historical record of the feature proposal.
+이더리움을 도입하고자 하는 분들에게 EIP는 실질적인 도입 단계를 추적할 수 있는 매우 유용한 방법입니다. 이상적으로는 그들이 도입한 EIP를 리스트로 남겨두면 좋을 듯합니다. 이를 통해 해당 서비스의 엔드 유저는 해당 서비스의 도입 단계를 보다 쉽게 알 수 있을 겁니다.
 
-For Ethereum implementers, EIPs are a convenient way to track the progress of their implementation. Ideally each implementation maintainer would list the EIPs that they have implemented. This will give end users a convenient way to know the current status of a given implementation or library.
+## EIP 타입
 
-## EIP Types
-
-There are three types of EIP:
+EIP에는 3가지 타입이 존재합니다:
 
 - A **Standard Track EIP** describes any change that affects most or all Ethereum implementations, such as a change to the the network protocol, a change in block or transaction validity rules, proposed application standards/conventions, or any change or addition that affects the interoperability of applications using Ethereum. Furthermore Standard EIPs can be broken down into the following categories. Standards Track EIPs consist of three parts, a design document, implementation, and finally if warranted an update to the [formal specification].
   - **Core** - improvements requiring a consensus fork (e.g. [EIP5], [EIP101]), as well as changes that are not necessarily consensus critical but may be relevant to [“core dev” discussions](https://github.com/ethereum/pm) (for example, [EIP90], and the miner/node strategy changes 2, 3, and 4 of [EIP86]).
